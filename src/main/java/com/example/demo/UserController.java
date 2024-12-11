@@ -16,7 +16,7 @@ import com.example.demo.model.UserManager;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://scholar-ship-omega.vercel.app/")
 public class UserController {
 
 	@Autowired
