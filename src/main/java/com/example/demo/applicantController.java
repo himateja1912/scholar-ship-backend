@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 @RequestMapping("/applicantInfo")
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://scholar-ship-omega.vercel.app/")
 public class applicantController {
 	@Autowired
 	ApplicantManager AM;
